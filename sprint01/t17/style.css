@@ -1,0 +1,62 @@
+header{
+   text-align: center;
+   font-size: 30px;
+}
+h2 {
+   text-align: center;
+}
+.topic1, .topic2, .topic3, .topic4{
+   border: 1px solid black;
+   height: 130px;
+   width: 250px;
+   text-align: left;
+   padding: 10px;
+   margin: 15px;
+   }
+  .all_topic{
+     display: flex;
+     flex-wrap: wrap;
+      }
+@media screen and (max-width:1024px){
+       .body{ max-width: 1000px;}
+       .topic1, .topic2, .topic3, .topic4{
+         border: 1px solid black;
+         height: 150px;
+         width: 250px;
+         text-align: left;
+         margin: 15px;
+         padding: 10px;
+         }
+       .all_topic{
+         display: flex;
+         flex-wrap: nowrap;}}
+@media screen and (max-width:768px){
+   .body{ max-width: 760px;}
+        .topic1, .topic2, .topic3, .topic4{
+         border: 1px solid black;
+         height: 130px;
+         width: 330px;
+         text-align: left;
+         padding: 10px;
+         margin: 10px;
+         }
+         .all_topic{
+            max-width: 750px;
+            display: flex;
+            flex-wrap: wrap;
+         }
+      }
+@media screen and (max-width:320px) {
+   .body{
+       max-width: 300px;
+      }
+   .topic1, .topic2, .topic3, .topic4{
+      border: 1px solid black;
+      height: 130px;
+      width: 600px;
+      text-align: left;
+      padding: 10px;
+      margin: 15px;
+      }
+   .all_topic{ max-width: none; } 
+}

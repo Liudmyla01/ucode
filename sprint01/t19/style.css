@@ -1,0 +1,56 @@
+h1{color: pink;}
+h2{color: rgb(150, 149, 149);
+text-align: center;}
+.all_input > div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+ }
+label{
+   border: 1px solid black;
+   border-radius: 20px;
+   padding: 15px;
+   margin: 10px 20px;
+   width: 250px;
+   text-align: center;
+   font-weight: 400;
+}
+input[type=checkbox]{
+   position: absolute;
+   visibility: hidden;
+}
+ input[type=checkbox]:checked + label {
+   border: 1px solid #1F2A4F;
+   background-color: #1F2A4F;
+   color: white;
+    }
+input[type=checkbox]:checked + label:after {
+      content: "\2713";
+      font-family: ‘Source Sans Pro’, sans-serif;
+      color: white;
+      padding-left: 15px;
+   }
+   input[type=text] {
+    width: 100%;
+      font-size: 1em;
+      color: #838383;
+      border: none;
+      border-bottom: 1px solid #838383;
+      margin: 20px;
+      padding: 10px;
+      }
+       button{
+          background-color:pink;
+          border: none;
+          width: 98%;
+        font-weight: 700;
+        padding: 15px;
+        margin: 20px;
+        font-size: 0.8em;
+      color: white
+      }
+      button:hover{
+      background-color: rgb(70, 70, 240);
+      transition: 2s;
+      }

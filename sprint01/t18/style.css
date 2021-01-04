@@ -1,0 +1,25 @@
+form{
+   /* бокс заставляет вс> внутри стать в ряд */
+   display: flex;
+   /* размещение всех дете слева направо */
+   flex-direction: row;
+   align-items: center;
+}
+input{
+   /* заставляет строку увиличится в ширине, а кнопка подстраивается*/
+   flex-grow:1 ;
+   height: 2em;
+   float: left;
+   padding-left: 10px;
+   padding-right: 10px;
+   }
+  
+   button{
+      height: 2em; 
+      color: green;
+      width: auto;
+      
+    }
+   h1{
+      text-align: center;
+   }
