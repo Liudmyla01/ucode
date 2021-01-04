@@ -1,0 +1,176 @@
+body{
+  background:#f3d7d7;
+}
+.menu{
+  display: flex;
+  list-style: none;
+  position: fixed;
+  z-index: 1;
+  top: 0px;
+  left: 0;
+  margin-left: 120px;
+font-size: 20px;
+}
+.menu a{
+  display: block;
+  text-decoration: none;
+  color: #fcf9fc;
+  background:#967777ad;
+border-radius: 50px;
+height: 50px;
+width: 170px;
+text-align: center;
+padding-top: 20px;
+margin-left: 20px;
+}
+.menu a:hover{
+  background-color: #f3adad;
+   }
+  .menu a:focus{
+    outline: none;
+    background-color: #f3adad;
+  }
+
+/* About Me */
+.about_me{
+  height: 500px;
+  width: 100%;
+  background: linear-gradient(#be8686ad, #f3adad);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+img{
+  width: 300px;
+  height: 380px;
+  border-radius: 20px;
+  align-self: flex-end;
+  margin-right: 30px;
+  opacity: 80%;
+   }
+#name {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 50px;
+color: rgb(10, 55, 61);
+}
+span{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+ }
+ /* bottom download */
+.download_cv{
+  background: rgb(173, 123, 123);
+ font: inherit; 
+ width: 50%;
+  margin-top: 50px; 
+ margin-left: 400px; 
+  padding: 10px 10px;
+   font-size: 25px;
+  color: #555555;
+  border-radius: 5px;
+  transform: scale(1.1);
+  outline: none;
+  border: none;  
+}
+.download_cv:hover{
+  background-color: rgb(94, 46, 70);
+  color: #be8686ad;
+}
+.download_cv:active{
+  transform: scale(2.2);
+  background-color: aqua;
+}
+/* Projects */
+.projects{
+  background-color: rgba(201, 199, 199, 0.411);
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+border-radius: 50px;
+}
+.name_of_p{
+  width: 300px;
+  height: 50px;
+  background-color: rgb(128, 52, 90);
+font-size: 20px;
+color: ivory;
+margin-left: 20px;
+text-align: center;
+}
+#p2{
+width: 300px;
+height: 250px;
+font-size: 20px;
+color: black;
+border: 1px solid black;
+text-align: start;
+}
+/* Work Experience */
+.work_experience{
+    color: rgb(39, 19, 14);
+    text-align: center;
+    font-size: 50px;
+    margin-top: 150px;
+}
+#company_name{
+  height: 50px;
+width: 370px;
+background:#967777ad;
+border-radius: 50px;
+color: rgb(252, 245, 232);
+margin-left: 20px;
+text-align: center;
+}
+/* Skills */
+.skills{
+  background-color: rgba(156, 128, 128, 0.123);
+  height: 300px;
+  margin-top: 50px;
+  margin-left: 450px;
+border-radius: 50px;
+display: flex;
+justify-content: space-between;
+width: 650px;
+margin-top: 150px;
+}
+.tech_skills{
+padding: 0 50px 50px 50px;
+}
+#nameofs{
+  font-size: 50px;
+  color: #555555;
+}
+.power{
+  color: rgb(255, 127, 155);
+  font-size: 30px;
+}
+/* contacts */
+.contacts{
+  background: rgb(230, 211, 218);
+  height: 250px;
+  margin-top: 20px;
+  margin-top: 150px;
+}
+#namec{
+  text-align: center;
+  font-size: 50px;
+  color: #573f57;
+}
+.icon img{
+  width: 80px;
+  height: 80px;
+}
+.icon img:hover{
+box-shadow: 0px 2px 4px 4px  rgb(10, 55, 61);
+}
+.icon{
+display: flex;
+justify-content: space-around;
+}
+#kyiv{
+  text-align: center;
+}
